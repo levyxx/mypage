@@ -33,6 +33,7 @@ const projects: Project[] = [
     category: "AI Application",
     description: "AI interactive debate application.",
     tech: ["AI", "LLM", "Chat", "Go", "TypeScript"],
+    github: "https://github.com/levyxx/LLM-debate-battle",
     image: "public/images/LLM-debate-battle.png"
   },
   {
