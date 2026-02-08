@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github } from 'lucide-react';
+import { Github, Twitter } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -41,6 +41,14 @@ const Hero = () => {
           >
             <Github size={24} />
           </a>
+          <a
+            href="https://x.com/levyxx_tech_"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 bg-white/5 rounded-full hover:bg-white/10 transition-colors text-white"
+          >
+            <Twitter size={24} />
+          </a>
           {/* Qiita icon is not available in lucide-react, using Code2 as placeholder or text */}
           <a
             href="https://qiita.com/levyx"
@@ -64,7 +72,7 @@ const Hero = () => {
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-500 text-center whitespace-nowrap"
+        className="absolute bottom-10 w-full flex justify-center text-slate-500 text-center whitespace-nowrap"
       >
         Scroll Down
       </motion.div>
