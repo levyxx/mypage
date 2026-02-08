@@ -1,6 +1,14 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 
+// Import images
+import acePyImg from '../assets/images/ace-py.png';
+import sallm3Img from '../assets/images/SALLM3.png';
+import debateImg from '../assets/images/LLM-debate-battle.png';
+import timingIndicatorImg from '../assets/images/timing-indicator.png';
+import starImg from '../assets/images/STAR.png';
+import fineTuningImg from '../assets/images/FineTuning.png';
+
 interface Project {
   title: string;
   category: string;
@@ -8,7 +16,7 @@ interface Project {
   tech?: string[];
   link?: string;
   github?: string;
-  image?: string; // Image path placeholder for future
+  image?: string;
 }
 
 const projects: Project[] = [
@@ -18,7 +26,7 @@ const projects: Project[] = [
     description: "A wrapper library to use the AI agent ACE from Python.",
     tech: ["AI", "MCP", "Library", "Python"],
     github: "https://github.com/kurusugawa-computer/ace-py",
-    image: "public/images/ace-py.png"
+    image: acePyImg
   },
   {
     title: "SALLM3",
@@ -26,7 +34,7 @@ const projects: Project[] = [
     description: "Object detection application combining SAM3 and LLM.",
     tech: ["AI", "LLM", "SAM3", "Python", "TypeScript"],
     github: "https://github.com/levyxx/SALLM3",
-    image: "public/images/SALLM3.png"
+    image: sallm3Img
   },
   {
     title: "LLM-debate-battle",
@@ -34,7 +42,7 @@ const projects: Project[] = [
     description: "AI interactive debate application.",
     tech: ["AI", "LLM", "Chat", "Go", "TypeScript"],
     github: "https://github.com/levyxx/LLM-debate-battle",
-    image: "public/images/LLM-debate-battle.png"
+    image: debateImg
   },
   {
     title: "osu-mania-timing-indicator",
@@ -42,7 +50,7 @@ const projects: Project[] = [
     description: "Overlay tool used in osu!mania.",
     tech: ["Tool", "Game", "Overlay", "Electron", "TypeScript"],
     github: "https://github.com/levyxx/osu-mania-timing-indicator",
-    image: "public/images/timing-indicator.png"
+    image: timingIndicatorImg
   },
   {
     title: "Research on STAR Framework",
@@ -50,14 +58,14 @@ const projects: Project[] = [
     description: "Research and report on the AI architecture framework \"STAR\".",
     tech: ["AI", "LLM"],
     link: "https://arxiv.org/pdf/2411.17800",
-    image: "public/images/STAR.png"
+    image: starImg
   },
   {
     title: "LLM Finetuning Competition",
     category: "Competition",
     description: "Participated in an LLM fine-tuning competition.",
     tech: ["AI", "LLM", "PyTorch", "Competition", "Python"],
-    image: "public/images/FineTuning.png"
+    image: fineTuningImg
   }
 ];
 
