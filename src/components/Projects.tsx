@@ -16,40 +16,47 @@ const projects: Project[] = [
     title: "ace-py",
     category: "OSS",
     description: "A wrapper library to use the AI agent ACE from Python.",
-    tech: ["Python"],
-    github: "https://github.com/kurusugawa-computer/ace-py"
+    tech: ["AI", "MCP", "Library", "Python"],
+    github: "https://github.com/kurusugawa-computer/ace-py",
+    image: "public/images/ace-py.png"
   },
   {
     title: "SALLM3",
     category: "AI Application",
     description: "Object detection application combining SAM3 and LLM.",
-    tech: ["AI", "LLM", "CV"],
-    github: "https://github.com/levyxx/SALLM3"
+    tech: ["AI", "LLM", "SAM3", "Python", "TypeScript"],
+    github: "https://github.com/levyxx/SALLM3",
+    image: "public/images/SALLM3.png"
   },
   {
     title: "LLM-debate-battle",
     category: "AI Application",
     description: "AI interactive debate application.",
-    tech: ["LLM", "Chat"]
+    tech: ["AI", "LLM", "Chat", "Go", "TypeScript"],
+    image: "public/images/LLM-debate-battle.png"
   },
   {
     title: "osu-mania-timing-indicator",
     category: "Tools",
     description: "Overlay tool used in osu!mania.",
-    tech: ["Tool", "Game"],
-    github: "https://github.com/levyxx/osu-mania-timing-indicator"
+    tech: ["Tool", "Game", "Overlay", "Electron", "TypeScript"],
+    github: "https://github.com/levyxx/osu-mania-timing-indicator",
+    image: "public/images/timing-indicator.png"
   },
   {
     title: "Research on STAR Framework",
     category: "Research",
     description: "Research and report on the AI architecture framework \"STAR\".",
-    link: "https://arxiv.org/pdf/2411.17800"
+    tech: ["AI", "LLM"],
+    link: "https://arxiv.org/pdf/2411.17800",
+    image: "public/images/STAR.png"
   },
   {
     title: "LLM Finetuning Competition",
     category: "Competition",
     description: "Participated in an LLM fine-tuning competition.",
-    tech: ["LLM", "Python"]
+    tech: ["AI", "LLM", "PyTorch", "Competition", "Python"],
+    image: "public/images/FineTuning.png"
   }
 ];
 

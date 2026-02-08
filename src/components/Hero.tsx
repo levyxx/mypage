@@ -23,7 +23,7 @@ const Hero = () => {
             levyxx
           </h1>
           <p className="text-xl md:text-2xl text-slate-400 mb-8 max-w-2xl mx-auto">
-            Software Engineer based in Nagoya.
+            Software Engineer
           </p>
         </motion.div>
 
@@ -64,7 +64,7 @@ const Hero = () => {
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-500"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-500 text-center whitespace-nowrap"
       >
         Scroll Down
       </motion.div>
