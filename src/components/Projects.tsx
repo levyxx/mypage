@@ -6,7 +6,7 @@ import acePyImg from '../assets/images/ace-py.png';
 import sallm3Img from '../assets/images/SALLM3.png';
 import debateImg from '../assets/images/LLM-debate-battle.png';
 import timingIndicatorImg from '../assets/images/timing-indicator.png';
-import starImg from '../assets/images/STAR.png';
+import escapeGameImg from '../assets/images/escape-game.png';
 import fineTuningImg from '../assets/images/FineTuning.png';
 
 interface Project {
@@ -47,23 +47,22 @@ const projects: Project[] = [
   {
     title: "osu-mania-timing-indicator",
     category: "Tools",
-    description: "Overlay tool used in osu!mania.",
+    description: "Overlay tool used in osu!mania. It displays timing indicators to help players improve their timing.",
     tech: ["Tool", "Game", "Overlay", "Electron", "TypeScript"],
     github: "https://github.com/levyxx/osu-mania-timing-indicator",
     image: timingIndicatorImg
   },
   {
-    title: "Research on STAR Framework",
-    category: "Research",
-    description: "Research and report on the AI architecture framework \"STAR\".",
-    tech: ["AI", "LLM"],
-    link: "https://arxiv.org/pdf/2411.17800",
-    image: starImg
+    title: "Escape Game",
+    category: "Game",
+    description: "Available for Google Play. It has been downloaded over 1,000 times and has an average rating of 4.0 out of 5 stars.",
+    tech: ["Game", "Unity", "C#", "Google Play"],
+    image: escapeGameImg
   },
   {
-    title: "LLM Finetuning Competition",
-    category: "Competition",
-    description: "Participated in an LLM fine-tuning competition.",
+    title: "LLM Finetuning",
+    category: "AI Finetuning",
+    description: "I explored SFT, RL, MoE, RAG, and other techniques for optimizing LLMs",
     tech: ["AI", "LLM", "PyTorch", "Competition", "Python"],
     image: fineTuningImg
   }
@@ -136,7 +135,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-3xl font-bold mb-12 text-center text-white"
         >
-          Selected Projects
+          Examples of Projects
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
