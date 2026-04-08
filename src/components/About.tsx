@@ -24,7 +24,6 @@ const About = () => {
                 Department of Electrical, Electronics and Information Engineering
               </p>
               <p className="text-slate-500 text-sm mt-2">School of Engineering</p>
-              <p className="text-slate-500 text-sm mt-2">The average GPA is 4.06 / 4.3</p>
             </div>
           </motion.div>
 
